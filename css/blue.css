@@ -1,0 +1,22 @@
+
+ body {
+    background: url("../img/Azul.jpg");
+    background-attachment: fixed;
+  }
+#logo {
+    background: #15178b;
+  }
+
+
+  .button-more {
+   
+    background: #15178b;
+    
+  }
+  #Menu ul li:hover {
+    background: #15178b;
+  }
+  .stripe {
+    background: linear-gradient(to right, #003973, #e5e5be);
+  }
+ 

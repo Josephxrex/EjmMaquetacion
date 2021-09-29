@@ -1,0 +1,21 @@
+body {
+    background: url("../img/Verde.jpg");
+    background-attachment: fixed;
+  }
+#logo {
+    background: #235e3d;
+  }
+
+
+  .button-more {
+   
+    background: #235e3d;
+    
+  }
+  #Menu ul li:hover {
+    background: #235e3d;
+  }
+  .stripe {
+    background: linear-gradient(to right, #159957, #155799);
+  
+  }

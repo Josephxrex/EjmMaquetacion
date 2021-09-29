@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/blue.css">
+    <!--Slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!--Moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es-mx.min.js" integrity="sha512-Qy4cmZ6v7vnVEc0cn/BIj9q15eB98do4hMvu8xtc/H+v+YYpdpDrB35flHS3NPLbZUpe1npSYY/u+Gi3UB61vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Navegacion de redes-->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+    <title>Index</title>
+</head>
+
+<body>
+    <div id="theme-selector">
+    <div id="to-red"></div>
+    <div id="to-green"></div>
+    <div id="to-blue"></div>
+    </div>
+    <!--Contenedor Global-->
+    <section id = "global">
+        <!--Contenido-->
+        <header>
+            <div id="logo">
+                Joseph Camargo
+            </div>
+            <div class="clearfix"></div>
+            <nav id="Menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="biografia.html">Biografía</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Slider-->
+        <div id="slider">
+            <div class="bxslider">
+                <div><img src="img/img1.jpg" title="Maquina de escribir"></div>
+                <div><img src="img/img2.jpg" title="Libros"></div>
+                <div><img src="img/img3.jpg" title="Texto"></div>
+              </div>
+        </div>
+
+
+        <section id = "contenido">
+            <div id = "posts">
+                <!--Texto llenado por el Json-->
+            </div>
+            <aside id = "sidebar">
+
+                <div id  = "about">
+                    <h4> ¿Quien Soy?</h4>
+                    <img src="img/cat-551554_1280.jpg" alt="foto de rockstar">
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </p>
+
+                </div>
+                <div id="login">
+                    <h4><span>Inicio de sesion</span></h4>
+                    <form >
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="form_name">
+                       <!-- <label for="correo">Correo:</label>
+                        <input type="email" name="email" id="form_email">-->
+                        <label for="password">Contraseña:</label>
+                        <input type="password" name="password" id="form_password">
+                        <input type="submit" value="Enviar">
+                    </form>
+
+                </div>
+                <!--Footer-->
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <footer class="stripe">Joseph Efrain Camargo &copy;
+        <div class="redes">
+           <a  href="https://es-la.facebook.com/"> <i class="fab fa-facebook fa-2x" style="color:white"></i></a>&nbsp;&nbsp;
+           <a  href="https://www.instagram.com/?hl=es"> <i class="fab fa-instagram-square fa-2x"style="color:white"></i></a>&nbsp;&nbsp;
+           <a  href="https://www.twitch.tv/"> <i class="fab fa-twitch fa-2x" style="color:white"></i></a>&nbsp;&nbsp;
+        </div>
+        
+    </footer>
+</body>
+
+</html>

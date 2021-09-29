@@ -1,0 +1,21 @@
+body {
+    background: url("../img/Rojo.jpg");
+    background-attachment: fixed;
+  }
+#logo {
+    background: tomato;
+  }
+
+
+  .button-more {
+   
+    background: tomato;
+    
+  }
+  #Menu ul li:hover {
+    background: tomato;
+  }
+  .stripe {
+    background: linear-gradient(to right, #f12711, #f5af19);
+  
+  }
